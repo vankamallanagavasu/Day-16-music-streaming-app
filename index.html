@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Streaming App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="music-player">
+      <div class="album-cover">
+        <img id="albumImage" src="" alt="Album Cover">
+      </div>
+      <div class="controls">
+        <button id="prevBtn">&lt;</button>
+        <button id="playBtn">Play</button>
+        <button id="nextBtn">&gt;</button>
+      </div>
+      <div class="song-info">
+        <p id="songTitle">Song Title</p>
+        <p id="artist">Artist</p>
+      </div>
+      <div class="progress-container">
+        <div class="progress"></div>
+      </div>
+      <div class="time-container">
+        <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
